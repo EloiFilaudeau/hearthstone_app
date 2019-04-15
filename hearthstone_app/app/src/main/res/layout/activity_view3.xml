@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View3">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:text="None"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorAccent"
+        android:layout_height="27dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="352dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="352dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <GridLayout
+        android:id="@+id/layout"
+        android:layout_width="320dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:textColor="@color/colorAccent"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Type : none"
+            android:textAlignment="textStart"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:textColor="@color/colorAccent"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Cost : none"
+            android:textAlignment="textStart"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:textColor="@color/colorAccent"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Health : none"
+            android:textAlignment="textStart"
+            android:textSize="16dp" />
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Rarity : none"
+            android:textAlignment="textStart"
+            android:textSize="16dp" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#210303"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Add to Deck"
+        android:textAllCaps="false"
+        android:textColor="#FCD144"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

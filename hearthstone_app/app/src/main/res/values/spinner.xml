@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cards_class">
+        <item>-</item>
+        <item>Druid</item>
+        <item>Hunter</item>
+        <item>Mage</item>
+        <item>Paladin</item>
+        <item>Priest</item>
+        <item>Rogue</item>
+        <item>Shaman</item>
+        <item>Warlock</item>
+        <item>Warrior</item>
+        <item>Dream</item>
+    </string-array>
+    <string-array name="cards_type">
+        <item>-</item>
+        <item>Hero</item>
+        <item>Minion</item>
+        <item>Spell</item>
+        <item>Enchantment</item>
+        <item>Weapon</item>
+        <item>Hero Power</item>
+    </string-array>
+    <string-array name="cards_faction">
+        <item>-</item>
+        <item>Horde</item>
+        <item>Alliance</item>
+        <item>Neutral</item>
+    </string-array>
+    <string-array name="cards_race">
+        <item>-</item>
+        <item>Demon</item>
+        <item>Dragon</item>
+        <item>Mech</item>
+        <item>Murloc</item>
+        <item>Beast</item>
+        <item>Pirate</item>
+        <item>Totem</item>
+        <item>Elemental</item>
+    </string-array>
+</resources>
