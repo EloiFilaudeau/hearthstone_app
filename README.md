@@ -1,5 +1,4 @@
 Hearthstone App
 ---
-![logo app](/hearthstone_app/app/src/main/ic_hs-web.png "logo app"){:height="36px" width="36px"}  
-<img src="/hearthstone_app/app/src/main/ic_hs-web.png" alt="drawing" width="20"/>  
+<center><img src="/hearthstone_app/app/src/main/ic_hs-web.png" alt="app logo" width="60" /></center>  
 Android project about hearthstone, the aims of this project is to develop a deck visualisation application for all the cards of hearthstone.
